@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colección</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #1e1126;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            background-color: #1e1126;
+            border-bottom: 1px solid #333;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .navbar a:hover {
+            color: #ff5a5f;
+        }
+
+        .collection-header {
+            background-color: #d94f67;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            color: #ffffff;
+        }
+
+        .collection-content {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .collection-content h2 {
+            font-size: 2em;
+            color: #1e1126;
+            margin-bottom: 20px;
+        }
+
+        .collection-content p {
+            color: #1e1126;
+            margin-bottom: 50px;
+        }
+
+        .product {
+            display: inline-block;
+            width: 300px;
+            margin: 20px;
+            text-align: left;
+            background-color: #f5f5f5;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+
+        .product h3 {
+            margin: 0 0 10px;
+            font-size: 1.2em;
+        }
+
+        .product p {
+            margin: 0;
+            font-size: 1em;
+            color: #ff5a5f;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <h1 style="font-size: 2.5em">Pullo</h1>
+        </div>
+        <nav>
+            <a href="Pagina%20principal.html">Página principal</a>
+            <a href="collection.html">Colección</a> 
+            <a href="shoes.html">Zapatos</a>
+            <a href="racing-boots.html">Botas para correr</a>
+            <a href="contact.html">Contactos</a>
+            <a href="#"><img src="Imagenes/search_icon.png" alt="Buscar"></a>
+            <a href="#"><img src="Imagenes/shop_icon.png" alt="Carrito de compras"></a>
+        </nav>
+    </header>
+
+    <section id="collection" class="collection-section">
+        <div class="collection-header">
+            Colección
+        </div>
+        <div class="collection-content">
+            <h2>Nueva Colección</h2>
+            <p>¡Descubre el poder de cada paso con nuestros tenis para correr y hacer ejercicio! Diseñados para ofrecer el máximo confort y rendimiento, nuestros tenis te llevarán más lejos, más rápido y con más estilo.</p>
+            <div class="product">
+                <img src="Imagenes/shoes-img1.png" alt="Shoe 1">
+                <h3>Tenis Masculinos</h3>
+                <p>$720</p>
+            </div>
+            <div class="product">
+                <img src="Imagenes/shoes-img2.png" alt="Shoe 2">
+                <h3>Tenis Masculinos</h3>
+                <p>$720</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
